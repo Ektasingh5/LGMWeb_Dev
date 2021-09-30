@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="t11css.css">
+    <script src="t11jv.js"></script>
+    <title>Zippy</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+    <header>
+        <a class="zippyhome" href="#home">ZIPPY</a>
+        <nav>
+            <a href="#welcome">HOME</a>
+            <a href="#projects">PROJECTS</a>
+            <a href="#pricingTable">PRICING</a>
+            <a href="#blog">BLOG</a>
+            <a href="#contact">CONTACT</a>
+        </nav>
+    </header>
+
+    <div class="topintro">
+        <p class="topintroHeading">One page promising to fill all your needs!</p>
+        <p class="topintroPara">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit cumque nesciunt in
+            magnam pariatur vel.</p>
+        <span><button>LEARN MORE</button></span>
+        <span><button>LEARN MORE</button></span>
+    </div>
+
+    <div class="slideshow">
+        <div class="slideshowimg fade">
+            <img src="https://images.unsplash.com/photo-1508739773434-c26b3d09e071?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8d2FsbHBhcGVyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60.jpg" alt="top image" style="display: block;">
+        </div>
+
+        <div class="slideshowimg fade">
+            <img src="https://images.unsplash.com/photo-1536999606895-b6c1971676c4?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDEyfGJvOGpRS1RhRTBZfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60.jpg" alt="top image">
+        </div>
+
+        <div class="slideshowimg fade">
+            <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHdhbGxwYXBlcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60.jpg" alt="top image">
+        </div>
+
+        <div class="slideshowimg fade">
+            <img src="https://images.unsplash.com/photo-1554147090-e1221a04a025?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8d2FsbHBhcGVyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60.jpg" alt="top image">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+
+    <div class="dotcontainer style=" text-align:left>
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+
+    <script>
+        showSlidesauto();
+    </script>
+
+    <div id="welcome">
+        <div class="title">
+            <h1>Welcome to Zippy</h1>
+        </div>
+        <div class="para-and-img">
+            <div class="paragraph">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim magni in minima non aliquam doloremque
+                autem reprehenderit? Eveniet natus ad incidunt tenetur officia, dolor, quod odio, recusandae explicabo
+                error officiis?
+            </div>
+            <img src="https://images.unsplash.com/photo-1499678450342-29ebee16d1ab?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dW1icmVsbGF8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60.jpg" alt="image">
+        </div>
+        <div class="features">
+            <div class="feature-item">
+                 <!-- 1project image -->
+                <div class="feature-item-image"><img src="https://images.unsplash.com/photo-1512626120412-faf41adb4874?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZW1haWx8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60.jpg" alt="img"></div>
+                <div class="feature-item-title">LOREM IPSUM</div>
+                <div class="feature-item-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident
+                    cupiditate expedita nobis, aspernatur eaque officiis facilis odit ut atque dolore labore autem unde
+                    obcaecati dicta magni eligendi omnis architecto consequatur.</div>
+                <div class="feature-item-button"><button>Learn More</button></div>
+            </div>
+            <div class="feature-item">
+                 <!-- 2project image -->
+                <div class="feature-item-image"><img src="https://images.unsplash.com/photo-1509698576371-f71454783a50?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8YmVsbHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60.jpg" alt="img"></div>
+                <div class="feature-item-title">LOREM IPSUM</div>
+                <div class="feature-item-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident
+                    cupiditate expedita nobis, aspernatur eaque officiis facilis odit ut atque dolore labore autem unde
+                    obcaecati dicta magni eligendi omnis architecto consequatur.</div>
+                <div class="feature-item-button"><button>Learn More</button></div>
+            </div>
+            <div class="feature-item">
+                <!-- 3project image -->
+                <div class="feature-item-image"><img src="https://images.unsplash.com/photo-1522199755839-a2bacb67c546?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YmxvZ3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60jpg" alt="img"></div>
+                <div class="feature-item-title">LOREM IPSUM</div>
+                <div class="feature-item-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident
+                    cupiditate expedita nobis, aspernatur eaque officiis facilis odit ut atque dolore labore autem unde
+                    obcaecati dicta magni eligendi omnis architecto consequatur.</div>
+                <div class="feature-item-button"><button>Learn More</button></div>
+            </div>
+        </div>
+    </div>
+    <hr width="50%">
+
+    <div id="projects">
+        <div class="title">
+            <h1>Projects</h1>
+        </div>
+        <div class="projectContents">
+            <div class="projectItem">
+                <!-- project-->
+                <div class="projectimg"><img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGJsb2d8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60.jpg" alt="project-img"></div>
+                <div class="projectText">
+                    <div class="projectName">Project Name</div>
+                    <div class="projectdesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod itaque ad
+                        aliquam non fuga hic in, dignissimos alias qui! Eaque nobis reprehenderit deserunt? Minima
+                        repellat soluta corporis quas, veritatis aut!</div>
+                    <div class="projectButton"><button>Launch Case Study</button></div>
+                </div>
+            </div>
+
+            <div class="projectItem">
+                <div class="projectimg"><img src="https://images.unsplash.com/photo-1572177812156-58036aae439c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cHJvamVjdHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60.jpg" alt="project-img"></div>
+                <div class="projectText">
+                    <div class="projectName">Project Name</div>
+                    <div class="projectdesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod itaque ad
+                        aliquam non fuga hic in, dignissimos alias qui! Eaque nobis reprehenderit deserunt? Minima
+                        repellat soluta corporis quas, veritatis aut!</div>
+                    <div class="projectButton"><button>Launch Case Study</button></div>
+                </div class="projectText">
+            </div>
+
+            <div class="projectItem">
+                <div class="projectimg"><img src="https://images.unsplash.com/photo-1471039497385-b6d6ba609f9c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YnVpbGRpbmd8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60.jpg" alt="project-img"></div>
+                <div class="projectText">
+                    <div class="projectName">Project Name</div>
+                    <div class="projectdesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod itaque ad
+                        aliquam non fuga hic in, dignissimos alias qui! Eaque nobis reprehenderit deserunt? Minima
+                        repellat soluta corporis quas, veritatis aut!</div>
+                    <div class="projectButton"><button>Launch Case Study</button></div>
+                </div class="projectText">
+            </div>
+             <div class="projectItem">
+                <div class="projectimg"><img src="https://images.unsplash.com/photo-1593642634315-48f5414c3ad9?ixid=MnwxMjA3fDF8MHxzZWFyY2h8MXx8cHJvamVjdHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60.jpg" alt="project-img"></div>
+                <div class="projectText">
+                    <div class="projectName">Project Name</div>
+                    <div class="projectdesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod itaque ad
+                        aliquam non fuga hic in, dignissimos alias qui! Eaque nobis reprehenderit deserunt? Minima
+                        repellat soluta corporis quas, veritatis aut!</div>
+                    <div class="projectButton"><button>Launch Case Study</button></div>
+                </div class="projectText">
+            </div>
+        </div>
+    </div>
+    <div id="pricingTable">
+        <div class="title">
+            <h1>Pricing Table</h1>
+        </div>
+        <div class="pricingTableContents">
+            <div class="pricingTableItem">
+                <h4 class="planName">Standard Plan</h4>
+                <p class="planPrice">Free</p>
+                <div class="planDetails">
+                    <div>2 GB Available</div>
+                    <div>15 max contacts</div>
+                    <div>30messages/month</div>
+                    <div>Outgoing Ads</div>
+                </div>
+                <p>
+                    <button>Buy</button>
+                </p>
+            </div>
+
+            <div class="pricingTableItem">
+                <h4 class="planName">Business Plan</h4>
+                <p class="planPrice">19$/MONTH</p>
+                <div class="planDetails">
+                    <div>10 GB Available</div>
+                    <div>75 max contacts</div>
+                    <div>120messages/month</div>
+                    <div>Ads Free</div>
+                </div>
+                <p>
+                    <button>Buy</button>
+                </p>
+            </div>
+
+            <div class="pricingTableItem">
+                <h4 class="planName">Premium Plan</h4>
+                <p class="planPrice">14$/MONTH</p>
+                <div class="planDetails">
+                    <div>100 GB Available</div>
+                    <div>Unlimited contacts</div>
+                    <div>Unlimited messages/month</div>
+                    <div>Ads Free</div>
+                </div>
+                <p>
+                    <button>Buy</button>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div id="videoProjects">
+        <div class="title">
+            <h1>Video Projects</h1>
+        </div>
+
+        <div class="videoContainer">
+            <div class="videoslide fade">
+                <video width="640px" controls>
+                    <source src="https://player.vimeo.com/external/181472380.sd.mp4?s=147970d37072104106406934631ec1dded07fd09&profile_id=164.mp4" type="video/mp4">
+                    Your browser does not support video playback.
+                </video>
+            </div>
+
+            <div class="videoslide fade">
+                <video width="640px" controls>
+                    <source src="https://player.vimeo.com/external/147055409.mobile.mp4?s=41faabe1ebbe705c243e974afe643474a15fb601&profile_id=116.mp4" type="video/mp4">
+                    Your browser does not support video playback.
+                </video>
+            </div>
+
+            <div class="videoslide fade">
+                <video width="640px" controls>
+                    <source src="https://player.vimeo.com/external/183788420.sd.mp4?s=f3a76fd638e5e8ec2bad5aee0eb485b24ea5c747&profile_id=164.mp4" type="video/mp4">
+                    Your browser does not support video playback.
+                </video>
+            </div>
+
+            <a class="prev" onclick="plusVideoSlide(-1)">&#10094;</a>
+            <a class="next" onclick="plusVideoSlide(1)">&#10095;</a>
+
+        </div>
+    </div>
+
+    <script>
+        currentVideoSlide(1);
+    </script>
+
+    
+    
+
+    <div id="lifeInZippy">
+        <div class="title" style="padding-top: 10px;">
+            <h1>Life in Zippy</h1>
+        </div>
+
+        <div class="imageGallary">
+            <div class="imageslide">
+                <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHBlb3BsZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60.jpg" alt="gallary image">
+            </div>
+
+            <div class="imageslide">
+                <img src="https://images.unsplash.com/photo-1501386761578-eac5c94b800a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHBlb3BsZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60.jpg" alt="gallary image">
+            </div>
+
+            <div class="imageslide">
+                <img src="https://images.unsplash.com/photo-1537511446984-935f663eb1f4?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHBlb3BsZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60.jpg" alt="gallary image">
+            </div>
+
+            <div class="imageslide">
+                <img src="https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHBlb3BsZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60.jpg" alt="gallary image">
+            </div>
+
+            <div class="imageslide">
+                <img src="https://images.unsplash.com/photo-1517732306149-e8f829eb588a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cGVvcGxlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60.jpg" alt="gallary image">
+            </div>
+
+
+            <div class="row">
+                <span class="column">
+                    <a class="prev" style="position: absolute; background-color: gray; top: 92%;"
+                        onclick="plusSlidesGallary(-1)">&#10094;</a>
+                </span>
+                <span class="column">
+                    <img class="demo cursor" src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHBlb3BsZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60.jpg" style="width:100%"
+                        onclick="currentSlideGallary(1)" alt="thumbnail">
+                </span>
+                <span class="column">
+                    <img class="demo cursor" src="https://images.unsplash.com/photo-1501386761578-eac5c94b800a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHBlb3BsZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60.jpg" style="width:100%"
+                        onclick="currentSlideGallary(2)" alt="thumbnail">
+                </span>
+                <span class="column">
+                    <img class="demo cursor" src="https://images.unsplash.com/photo-1537511446984-935f663eb1f4?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHBlb3BsZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60.jpg" style="width:100%"
+                        onclick="currentSlideGallary(3)" alt="thumbnail">
+                </span>
+                <span class="column">
+                    <img class="demo cursor" src="https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHBlb3BsZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60.jpg" style="width:100%"
+                        onclick="currentSlideGallary(4)" alt="thumbnail">
+                </span>
+                <span class="column">
+                    <img class="demo cursor" src="https://images.unsplash.com/photo-1517732306149-e8f829eb588a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cGVvcGxlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60.jpg" style="width:100%"
+                        onclick="currentSlideGallary(5)" alt="thumbnail">
+                </span>
+                <span class="column">
+                    <a class="next" style="position: absolute; background-color: gray; top: 92%; right: 70px;"
+                        onclick="plusSlidesGallary(1)">&#10095;</a>
+                </span>
+            </div>
+        </div>
+        <script>
+            currentSlideGallary(1);
+        </script>
+    </div>
+
+    <div id="newsletter">
+        <div class="newsletterForm">
+            <div class="title">
+                <h1>Newsletter Signup</h1>
+            </div>
+            <div class="form">
+                <div class="emailBox">
+                    <input type="text" name="email" id="email" placeholder="abc@example.com">
+                </div>
+                <div class="signupButton">
+                    <button>SIGN UP</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="blog">
+        <div class="title">
+            <h1>Blog</h1>
+        </div>
+      <!-- blog -->
+        <div class="blogContents">
+            <div class="blogItem">
+                <img src="https://images.unsplash.com/photo-1519337265831-281ec6cc8514?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8YmxvZ3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60.jpg" alt="blog picture">
+                <h5 class="blogTitle">Lorem ipsum</h5>
+                <p class="date">15 Jan, 2015</p>
+                <p class="blogIntro">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus commodi aut aliquid
+                    unde tempore modi sit vero ea voluptatibus blanditiis? Dolore quod excepturi ad deserunt? Dolor
+                    facilis sunt officiis quos.</p>
+                <button>READ MORE</button>
+            </div>
+
+            <div class="blogItem">
+                <img src="https://images.unsplash.com/photo-1500989145603-8e7ef71d639e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YmxvZ3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60.jpg" alt="blog picture">
+                <h5 class="blogTitle">Lorem ipsum</h5>
+                <p class="date">15 Jan, 2015</p>
+                <p class="blogIntro">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus commodi aut aliquid
+                    unde tempore modi sit vero ea voluptatibus blanditiis? Dolore quod excepturi ad deserunt? Dolor
+                    facilis sunt officiis quos.</p>
+                <button>READ MORE</button>
+            </div>
+
+            <div class="blogItem">
+                <img src="https://images.unsplash.com/photo-1545239351-ef35f43d514b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmxvZ3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60.jpg" alt="blog picture">
+                <h5 class="blogTitle">Lorem ipsum</h5>
+                <p class="date">15 Jan, 2015</p>
+                <p class="blogIntro">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus commodi aut aliquid
+                    unde tempore modi sit vero ea voluptatibus blanditiis? Dolore quod excepturi ad deserunt? Dolor
+                    facilis sunt officiis quos.</p>
+                <button>READ MORE</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="mapiframe">
+            <!-- <img src="/assets/map.png" alt="googleMapImg"> -->
+            <iframe
+                src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=delhi+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+            </iframe>
+        </div>
+        <div class="contactForm">
+            <div class="title">
+                <h1>Contact</h1>
+            </div>
+            <div class="mainContactform">
+                <div>
+                    <label for="name">NAME</label>
+                </div>
+                <div>
+                    <input type="text" name="name" id="name">
+                </div>
+
+                <div>
+                    <label for="email">EMAIL ADDRESS</label>
+                </div>
+                <div>
+                    <input type="text" name="email" id="email">
+                </div>
+
+                <div>
+                    <label for="subject">SUBJECT</label>
+                </div>
+                <div>
+                    <input type="text" name="subject" id="subject">
+                </div>
+
+                <div>
+                    <label for="message">MESSAGE</label>
+                </div>
+                <div>
+                    <input type="textarea" name="message" id="message" style="height:200px;">
+                </div>
+
+                <button>SEND</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footerItem">
+            <h5>Office Address</h5>
+            <div>Lorem ipsum dolor, 234</div>
+            <div>1200 consectetur</div>
+            <div>adipisicing</div>
+        </div>
+
+        <div class="footerItem">
+            <h5>Follow Us</h5>
+            <a href="#zippyTeam"><img src="https://images.unsplash.com/photo-1627843563095-f6e94676cfe0?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGZhY2Vib29rfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60.jpg" alt="facebook"></a>
+            <a href="#zippyTeam"><img src="https://images.unsplash.com/photo-1611605698335-8b1569810432?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZmFjZWJvb2slMjBsb2dvfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60.jpg" alt="twitter"></a>
+            <a href="#zippyTeam"><img src="https://images.unsplash.com/photo-1611944212129-29977ae1398c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bGlua2VkaW58ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60.jpg" alt="linkedin"></a>
+        </div>
+
+        <div class="footerItem">
+            <h5>Contact Us</h5>
+            <div>+ 123 456 789</div>
+            <div>zippy@skype</div>
+            <div>equiry@zippy.com</div>
+        </div>
+    </footer>
+</body>
+
+</html>
